@@ -1,0 +1,46 @@
+Microsoft Windows [Version 10.0.18363.1198]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\ASUS>python -m pip install --upgrade pip
+Requirement already up-to-date: pip in c:\users\asus\appdata\local\programs\python\python39\lib\site-packages (20.2.4)
+
+C:\Users\ASUS>cd C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master
+
+C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master>pip install virtualenv
+Requirement already satisfied: virtualenv in c:\users\asus\appdata\local\programs\python\python39\lib\site-packages (20.1.0)
+Requirement already satisfied: appdirs<2,>=1.4.3 in c:\users\asus\appdata\local\programs\python\python39\lib\site-packages (from virtualenv) (1.4.4)
+Requirement already satisfied: distlib<1,>=0.3.1 in c:\users\asus\appdata\local\programs\python\python39\lib\site-packages (from virtualenv) (0.3.1)
+Requirement already satisfied: six<2,>=1.9.0 in c:\users\asus\appdata\local\programs\python\python39\lib\site-packages (from virtualenv) (1.15.0)
+Requirement already satisfied: filelock<4,>=3.0.0 in c:\users\asus\appdata\local\programs\python\python39\lib\site-packages (from virtualenv) (3.0.12)
+
+C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master>virtualenv .venv
+created virtual environment CPython3.9.0.final.0-64 in 34580200ms
+  creator CPython3Windows(dest=C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master\.venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\ASUS\AppData\Local\pypa\virtualenv)
+    added seed packages: PyYAML==5.3.1, backoff==1.7.1, certifi==2018.11.29, chardet==3.0.4, idna==2.8, pip==20.2.4, python_chess==0.24.1, requests==2.24.0, setuptools==50.3.2, urllib3==1.24.2, wheel==0.35.1
+  activators BashActivator,BatchActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master>.\.venv\Scripts\activate
+
+(.venv) C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master>pip install -r requirements.txt
+Requirement already satisfied: certifi==2018.11.29 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 1)) (2018.11.29)
+Requirement already satisfied: chardet==3.0.4 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 2)) (3.0.4)
+Requirement already satisfied: idna==2.8 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 3)) (2.8)
+Requirement already satisfied: python-chess==0.24.1 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 4)) (0.24.1)
+Requirement already satisfied: PyYAML>=4.2b1 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 5)) (5.3.1)
+Requirement already satisfied: requests>=2.21.0 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 6)) (2.24.0)
+Requirement already satisfied: urllib3==1.24.2 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 7)) (1.24.2)
+Requirement already satisfied: backoff==1.7.1 in c:\users\asus\desktop\lichess bot\lichess-bot-master\lichess-bot-master\.venv\lib\site-packages (from -r requirements.txt (line 8)) (1.7.1)
+
+(.venv) C:\Users\ASUS\Desktop\Lichess BOT\lichess-bot-master\lichess-bot-master>python lichess-bot.py -u
+2020-11-25 08:52:14,260:
+    .   _/|
+    .  // o\
+    .  || ._)  lichess-bot 1.1.5
+    .  //__\
+    .  )___(   Play on Lichess with a bot
+
+2020-11-25 08:52:17,251: Welcome mrchessmanagerStock!
+2020-11-25 08:52:17,254: You're now connected to https://lichess.org/ and awaiting challenges.
+2020-11-25 08:52:19,930: --- Process Used. Total Queued: 0. Total Used: 1
+       _
